@@ -3,3 +3,64 @@ project --topLevelPackage com.ufpb --projectName classifikdosfull --java 7 --pac
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2014-02-18 02:15:25
 // Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2014-02-18 02:15:34
 persistence setup --database MYSQL --provider HIBERNATE
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2014-02-18 02:28:45
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-03-10 10:45:37
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-03-10 11:25:05
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-03-15 22:30:47
+entity jpa --class ~.domain.usuario --activeRecord false --testAutomatically
+web mvc setup
+web mvc all --package ~.web
+web mvc all --package ~.web
+field string --fieldName nome --class ~.domain.Usuario --notNull
+repository jpa --interface ~.repository.UsuarioRepository --entity ~.domain.Usuario
+json all --deepSerialize
+web mvc json all
+web mvc all --package ~.web
+jpa setup --provider HIBERNATE --database MYSQL 
+jpa setup --provider ECLIPSELINK --database H2_IN_MEMORY
+jpa setup --provider HIBERNATE --database MYSQL 
+field string --fieldName email --class ~.domain.Usuario --notNull
+field string --fieldName senha --class ~.domain.Usuario --notNull
+entity jpa --class ~.domain.Produto --activeRecord false --testAutomatically
+entity jpa --class ~.domain.Anuncio --activeRecord false --testAutomatically
+field string --fieldName nome --class ~.domain.Produto --notNull
+field set --fieldName usuarios --type ~.domain.Usuario
+field reference --fieldName produto --type ~.domain.Produto
+field reference --fieldName usuario --type ~.domain.Usuario
+field string --fieldName cor --class ~.domain.Produto --notNull
+field string --fieldName tamanho --class ~.domain.Produto --notNull
+json all --deepSerialize
+web mvc json all
+web mvc all --package ~.web
+field string --fieldName nome --class ~.domain.Anuncio --notNull
+json all --deepSerialize
+web mvc json all
+web mvc all --package ~.web
+repository jpa --interface ~.repository.ProdutoRepository --entity ~.domain.Produto
+repository jpa --interface ~.repository.ProdutoRepository --entity ~.domain.Produto
+json all --deepSerialize
+web mvc json all
+
+web mvc json all
+web mvc all --package ~.web
+class --class ~.domain.Anuncio
+field string --fieldName nome --class ~.domain.Anuncio --notNull
+field reference --fieldName produto --type ~.domain.Produto
+field string --fieldName descricao --class ~.domain.Anuncio --notNull
+field string --fieldName valor --class ~.domain.Anuncio --notNull
+repository jpa --interface ~.repository.AnuncioRepository --entity ~.domain.Anuncio
+json all --deepSerialize
+web mvc json all
+web mvc all --package ~.web
+json all --deepSerialize
+web mvc all --package ~.web
+web mvc all --package ~.web
+entity jpa --class ~.domain.Anuncio --activeRecord false --testAutomatically
+field reference --fieldName produto --type ~.domain.Produto
+field string --fieldName nome --class ~.domain.Anuncio --notNull
+field string --fieldName descricao --class ~.domain.Anuncio --notNull
+field string --fieldName valor --class ~.domain.Anuncio --notNull
+repository jpa --interface ~.repository.AnuncioRepository --entity ~.domain.Anuncio
+web mvc json all
+json all --deepSerialize
+web mvc all --package ~.web

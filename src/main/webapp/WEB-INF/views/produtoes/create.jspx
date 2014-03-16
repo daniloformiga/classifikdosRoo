@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_ufpb_domain_Produto" modelAttribute="produto" path="/produtoes" render="${empty dependencies}" z="4Wk4aY1eFy3l5TTcozFR6mE8Sdw=">
+        <field:input field="nome" id="c_com_ufpb_domain_Produto_nome" required="true" z="DXmx/+f4ZmF58VcY/RWK4NeA+Ro="/>
+        <field:input field="cor" id="c_com_ufpb_domain_Produto_cor" required="true" z="jGFBV4qXnneHHOajPxEWpeUXbMU="/>
+        <field:input field="tamanho" id="c_com_ufpb_domain_Produto_tamanho" required="true" z="YrmBtp5LtFi4w6YhhftWfrpHJTI="/>
+        <field:select field="usuario" id="c_com_ufpb_domain_Produto_usuario" itemValue="id" items="${usuarios}" path="/usuarios" z="zQrmzGGdby1WMq3LUBXR54NOZO4="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_ufpb_domain_Produto" render="${not empty dependencies}" z="54eheikwIPGzg3QjtGJSey9XwMQ="/>
+</div>

@@ -1,5 +1,27 @@
 <aspectj>
 <aspects>
+<aspect name="com.ufpb.domain.Produto_Roo_JavaBean"/>
+<aspect name="com.ufpb.ProdutoController_Roo_Controller_Json"/>
+<aspect name="com.ufpb.domain.Usuario_Roo_Json"/>
+<aspect name="com.ufpb.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.ufpb.domain.Anuncio_Roo_JavaBean"/>
+<aspect name="com.ufpb.domain.Anuncio_Roo_Json"/>
+<aspect name="com.ufpb.domain.Produto_Roo_Jpa_Entity"/>
+<aspect name="com.ufpb.domain.Anuncio_Roo_ToString"/>
+<aspect name="com.ufpb.domain.Usuario_Roo_Jpa_Entity"/>
+<aspect name="com.ufpb.ProdutoController_Roo_Controller"/>
+<aspect name="com.ufpb.domain.Usuario_Roo_JavaBean"/>
+<aspect name="com.ufpb.AnuncioController_Roo_Controller_Json"/>
+<aspect name="com.ufpb.repository.ProdutoRepository_Roo_Jpa_Repository"/>
+<aspect name="com.ufpb.domain.Anuncio_Roo_Jpa_Entity"/>
+<aspect name="com.ufpb.web.UsuarioController_Roo_Controller"/>
+<aspect name="com.ufpb.domain.Usuario_Roo_ToString"/>
+<aspect name="com.ufpb.domain.Produto_Roo_ToString"/>
+<aspect name="com.ufpb.domain.Produto_Roo_Json"/>
+<aspect name="com.ufpb.web.UsuarioController_Roo_Controller_Json"/>
+<aspect name="com.ufpb.repository.AnuncioRepository_Roo_Jpa_Repository"/>
+<aspect name="com.ufpb.AnuncioController_Roo_Controller"/>
+<aspect name="com.ufpb.repository.UsuarioRepository_Roo_Jpa_Repository"/>
 </aspects>
 </aspectj>
 

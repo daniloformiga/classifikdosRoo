@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_usuario" z="g6oG0656PcsmmvUYeBtpgiQROck=">
+            <menu:item id="i_usuario_new" messageCode="global_menu_new" url="/usuarios?form" z="RG1gCsiZQjg1HLDzXbHKht6yDkw="/>
+            <menu:item id="i_usuario_list" messageCode="global_menu_list" url="/usuarios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="P7ZIPrcTTBR41JYD0QldbYgsZrM="/>
+        </menu:category>
+        <menu:category id="c_produto" z="8jGkU+jEAT5KOiwMOctW/Ay8ScU=">
+            <menu:item id="i_produto_new" messageCode="global_menu_new" url="/produtoes?form" z="im12IAgxToraeq1qqXPZPutEYTY="/>
+            <menu:item id="i_produto_list" messageCode="global_menu_list" url="/produtoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="2XuLRqe1IbodNc8HoDoQzm4sqwk="/>
+        </menu:category>
+        <menu:category id="c_anuncio" z="TNcRC1JYs9Xn1L3j2bRy2bENUy0=">
+            <menu:item id="i_anuncio_new" messageCode="global_menu_new" url="/anuncios?form" z="GlNcCgh3jrkV+MRiK4q7DSim3yM="/>
+            <menu:item id="i_anuncio_list" messageCode="global_menu_list" url="/anuncios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="AvN49IdLCbYVET6HT1USWXoLt6k="/>
+        </menu:category>
+    </menu:menu>
+</div>

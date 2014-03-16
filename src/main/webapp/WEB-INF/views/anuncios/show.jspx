@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_ufpb_domain_Anuncio" object="${anuncio}" path="/anuncios" z="mKZ2A0h60TXcKG1Xb5U19/eFlpQ=">
+        <field:display field="nome" id="s_com_ufpb_domain_Anuncio_nome" object="${anuncio}" z="VHRA+LIpM2Sn5MT+HUXUce7v4Iw="/>
+        <field:display field="produto" id="s_com_ufpb_domain_Anuncio_produto" object="${anuncio}" z="Mt1W6QBFoMtNKSXvk14x3U32QTs="/>
+        <field:display field="descricao" id="s_com_ufpb_domain_Anuncio_descricao" object="${anuncio}" z="3zC3F8PQ/M9WyTA8Nxib9igk2NA="/>
+        <field:display field="valor" id="s_com_ufpb_domain_Anuncio_valor" object="${anuncio}" z="k4S7QlldV3gLZ809BPNkLkdj8bo="/>
+    </page:show>
+</div>
