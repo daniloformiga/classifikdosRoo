@@ -1,17 +1,17 @@
 <aspectj>
 <aspects>
-<aspect name="com.ufpb.domain.ProdutoDataOnDemand_Roo_Configurable"/>
-<aspect name="com.ufpb.domain.AnuncioIntegrationTest_Roo_Configurable"/>
+<aspect name="com.ufpb.domain.UsuarioIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.ufpb.domain.AnuncioDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.ufpb.domain.UsuarioIntegrationTest_Roo_Configurable"/>
+<aspect name="com.ufpb.domain.ProdutoIntegrationTest_Roo_IntegrationTest"/>
 <aspect name="com.ufpb.domain.UsuarioDataOnDemand_Roo_DataOnDemand"/>
 <aspect name="com.ufpb.domain.AnuncioDataOnDemand_Roo_Configurable"/>
-<aspect name="com.ufpb.domain.UsuarioIntegrationTest_Roo_Configurable"/>
 <aspect name="com.ufpb.domain.UsuarioDataOnDemand_Roo_Configurable"/>
 <aspect name="com.ufpb.domain.ProdutoDataOnDemand_Roo_DataOnDemand"/>
-<aspect name="com.ufpb.domain.UsuarioIntegrationTest_Roo_IntegrationTest"/>
-<aspect name="com.ufpb.domain.ProdutoIntegrationTest_Roo_Configurable"/>
 <aspect name="com.ufpb.domain.AnuncioIntegrationTest_Roo_IntegrationTest"/>
-<aspect name="com.ufpb.domain.AnuncioDataOnDemand_Roo_DataOnDemand"/>
-<aspect name="com.ufpb.domain.ProdutoIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.ufpb.domain.ProdutoDataOnDemand_Roo_Configurable"/>
+<aspect name="com.ufpb.domain.AnuncioIntegrationTest_Roo_Configurable"/>
+<aspect name="com.ufpb.domain.ProdutoIntegrationTest_Roo_Configurable"/>
 </aspects>
 </aspectj>
 
