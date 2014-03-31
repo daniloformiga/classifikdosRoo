@@ -65,3 +65,8 @@ web mvc json all
 json all --deepSerialize
 web mvc all --package ~.web
 // Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-03-16 03:49:35
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-03-30 22:32:09
+// [failed] help
+hint
+hint fields
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-03-31 02:41:19
