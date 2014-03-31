@@ -5,8 +5,6 @@
     <page:list id="pl_com_ufpb_domain_Produto" items="${produtoes}" z="dNZU4zoDNJbhc/80DDVVyx0invM=">
         <table:table data="${produtoes}" id="l_com_ufpb_domain_Produto" path="/produtoes" z="zOtfFDcmP2YINIwMvOGNQEQN7XQ=">
             <table:column id="c_com_ufpb_domain_Produto_nome" property="nome" z="cMf8xmcz+6I/YpOJkmW//wv6JVE="/>
-            <table:column id="c_com_ufpb_domain_Produto_cor" property="cor" z="sQurrKTX78xFWltjVk8lP7LTDqc="/>
-            <table:column id="c_com_ufpb_domain_Produto_tamanho" property="tamanho" z="xzemDN8bn+Md0JgRvmwMOrMEXP4="/>
             <table:column id="c_com_ufpb_domain_Produto_usuario" property="usuario" z="hmBoIpTN1EJxyTbzLhYn8W3/sv0="/>
         </table:table>
     </page:list>

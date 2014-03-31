@@ -4,8 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_com_ufpb_domain_Produto" modelAttribute="produto" path="/produtoes" render="${empty dependencies}" z="4Wk4aY1eFy3l5TTcozFR6mE8Sdw=">
         <field:input field="nome" id="c_com_ufpb_domain_Produto_nome" required="true" z="DXmx/+f4ZmF58VcY/RWK4NeA+Ro="/>
-        <field:input field="cor" id="c_com_ufpb_domain_Produto_cor" required="false" z="jGFBV4qXnneHHOajPxEWpeUXbMU="/>
-        <field:input field="tamanho" id="c_com_ufpb_domain_Produto_tamanho" required="false" z="YrmBtp5LtFi4w6YhhftWfrpHJTI="/>
         <field:select field="usuario" id="c_com_ufpb_domain_Produto_usuario" itemValue="id" items="${usuarios}" path="/usuarios" z="zQrmzGGdby1WMq3LUBXR54NOZO4="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_ufpb_domain_Produto" render="${not empty dependencies}" z="54eheikwIPGzg3QjtGJSey9XwMQ="/>

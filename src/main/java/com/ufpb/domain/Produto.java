@@ -23,13 +23,4 @@ public class Produto {
     @ManyToOne
     private Usuario usuario;
 
-    /**
-     */
-    @NotNull
-    private String cor;
-
-    /**
-     */
-    @NotNull
-    private String tamanho;
 }

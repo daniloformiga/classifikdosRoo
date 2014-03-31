@@ -4,8 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_com_ufpb_domain_Produto" object="${produto}" path="/produtoes" z="ZpItfyWLPaQWCdgzbSYmwETXRXc=">
         <field:display field="nome" id="s_com_ufpb_domain_Produto_nome" object="${produto}" z="pBe61h3RIvT/fgm0GRoQ4qULdLs="/>
-        <field:display field="cor" id="s_com_ufpb_domain_Produto_cor" object="${produto}" z="oDsnCU5SPOeo1/xt/GvzwXTiWmQ="/>
-        <field:display field="tamanho" id="s_com_ufpb_domain_Produto_tamanho" object="${produto}" z="DhjCIKaRQFXvOiAxNOvt0SnHGDM="/>
         <field:display field="usuario" id="s_com_ufpb_domain_Produto_usuario" object="${produto}" z="z9oqrxNnyqYv/NfeZocnp0mzBko="/>
     </page:show>
 </div>

@@ -24,20 +24,4 @@ privileged aspect Produto_Roo_JavaBean {
         this.usuario = usuario;
     }
     
-    public String Produto.getCor() {
-        return this.cor;
-    }
-    
-    public void Produto.setCor(String cor) {
-        this.cor = cor;
-    }
-    
-    public String Produto.getTamanho() {
-        return this.tamanho;
-    }
-    
-    public void Produto.setTamanho(String tamanho) {
-        this.tamanho = tamanho;
-    }
-    
 }

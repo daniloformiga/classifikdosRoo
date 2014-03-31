@@ -4,8 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_com_ufpb_domain_Produto" modelAttribute="produto" path="/produtoes" versionField="Version" z="60xPLyikhsg6GyW8bnEsQSBJUbw=">
         <field:input field="nome" id="c_com_ufpb_domain_Produto_nome" required="true" z="DXmx/+f4ZmF58VcY/RWK4NeA+Ro="/>
-        <field:input field="cor" id="c_com_ufpb_domain_Produto_cor" required="true" z="jGFBV4qXnneHHOajPxEWpeUXbMU="/>
-        <field:input field="tamanho" id="c_com_ufpb_domain_Produto_tamanho" required="true" z="YrmBtp5LtFi4w6YhhftWfrpHJTI="/>
         <field:select field="usuario" id="c_com_ufpb_domain_Produto_usuario" itemValue="id" items="${usuarios}" path="/usuarios" z="zQrmzGGdby1WMq3LUBXR54NOZO4="/>
     </form:update>
 </div>

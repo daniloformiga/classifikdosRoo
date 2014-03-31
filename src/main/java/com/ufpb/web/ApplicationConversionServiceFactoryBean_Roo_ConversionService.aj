@@ -55,7 +55,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<Produto, String> ApplicationConversionServiceFactoryBean.getProdutoToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<com.ufpb.domain.Produto, java.lang.String>() {
             public String convert(Produto produto) {
-                return new StringBuilder().append(produto.getNome()).append(' ').append(produto.getCor()).append(' ').append(produto.getTamanho()).toString();
+                return new StringBuilder().append(produto.getNome()).toString();
             }
         };
     }

@@ -33,25 +33,13 @@ privileged aspect ProdutoDataOnDemand_Roo_DataOnDemand {
     
     public Produto ProdutoDataOnDemand.getNewTransientProduto(int index) {
         Produto obj = new Produto();
-        setCor(obj, index);
         setNome(obj, index);
-        setTamanho(obj, index);
         return obj;
-    }
-    
-    public void ProdutoDataOnDemand.setCor(Produto obj, int index) {
-        String cor = "cor_" + index;
-        obj.setCor(cor);
     }
     
     public void ProdutoDataOnDemand.setNome(Produto obj, int index) {
         String nome = "nome_" + index;
         obj.setNome(nome);
-    }
-    
-    public void ProdutoDataOnDemand.setTamanho(Produto obj, int index) {
-        String tamanho = "tamanho_" + index;
-        obj.setTamanho(tamanho);
     }
     
     public Produto ProdutoDataOnDemand.getSpecificProduto(int index) {
